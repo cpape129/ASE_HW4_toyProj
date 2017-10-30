@@ -1,0 +1,25 @@
+(*write func TF for 
+if(item && test !=False)then return True
+else return false
+
+new func
+let bool test = true
+for each (list.iter) call TF(test)
+
+return TF
+
+let trueFalse item test = 
+	if(item && test) then true
+	else false;;
+	
+let allTrue = true;;	
+	
+let listTF l = *)
+
+let concat (l : string list) : string =
+  List.fold_left (fun acc x -> acc ^ x) "" l;;
+  
+let toCat = [hello; there; mr; sandman];;
+
+concat toCat;;
+	
